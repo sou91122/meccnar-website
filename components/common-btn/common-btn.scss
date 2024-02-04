@@ -1,0 +1,16 @@
+.common-btn{
+  background: $primary-color-green;
+  color: $white ;
+  border-radius: 3px;
+  padding: 17px 29px;
+  transition-duration: 0.4s;
+  transition-delay: 0.4s;
+  transition-timing-function: linear;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+ &:hover{
+   background:$color-three !important;
+   color: $white ;
+ }
+}
